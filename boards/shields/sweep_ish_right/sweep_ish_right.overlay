@@ -1,3 +1,6 @@
+
+#include <dt-bindings/zmk/matrix_transform.h>
+#include GPIO.h
 / {
     chosen {
         zmk,kscan = <&default_kscan>;
@@ -26,6 +29,6 @@
             <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
             <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
             <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
