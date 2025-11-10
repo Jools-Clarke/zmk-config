@@ -1,13 +1,12 @@
 / {
     chosen {
-        zmk,kscan = <&default_kscan>;
+        zmk,kscan = &default_kscan;
     };
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "default_kscan";
 
-        /* List all the GPIO pins for your 18 keys */
         input-gpios = 
             <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
             <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
