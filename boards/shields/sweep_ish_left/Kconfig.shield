@@ -1,2 +1,0 @@
-config SHIELD_SWEEP_ISH_LEFT
-    def_bool $(shields_list_contains,sweep_ish_left)

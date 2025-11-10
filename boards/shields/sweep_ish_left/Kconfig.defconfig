@@ -1,6 +1,0 @@
-if SHIELD_SWEEP_ISH_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default 'Sweep-ish'
-
-endif
