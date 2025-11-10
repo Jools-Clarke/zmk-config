@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     behaviors {
@@ -46,7 +47,7 @@
 &trans  &trans    &trans    &trans     &trans    &kp COMMA  &kp DOT    &kp LA(M)  &trans    &trans
                             &trans     &trans    &trans     &trans
             >;
-
+        };
         layer_3 {
             bindings = <
 &trans                                                                                                          &bootloader
